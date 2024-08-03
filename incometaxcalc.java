@@ -14,7 +14,7 @@ public class incometaxcalc {
             if ( 300000 <= income && income < 600000) {
                 double taxedIncome = (income - 300000);
                 double tax = 0.05*taxedIncome;
-                System.out.println("You Need to Pay " + tax + " ruppess as Tax");
+                System.out.println("You Need to Pay " + tax + " rupees as Tax");
                 
             }
 
@@ -22,7 +22,7 @@ public class incometaxcalc {
                 double tax1 = (income - 600000)*0.1;
                 double tax2 = (300000)*0.05;
                 double totaltax = tax1 + tax2;
-                System.out.println("You Need to Pay " + totaltax + " ruppess as Tax");
+                System.out.println("You Need to Pay " + totaltax + " rupees as Tax");
                 
             }
 
@@ -31,7 +31,7 @@ public class incometaxcalc {
                 double tax2 = (300000)*0.05;
                 double tax3 = (300000)*0.1;
                 double totaltax = tax1 + tax2 + tax3;
-                System.out.println("You Need to Pay " + totaltax + " ruppess as Tax");
+                System.out.println("You Need to Pay " + totaltax + " rupees as Tax");
                 
             }
             if ( 1200000 <= income && income < 1500000) {
@@ -40,7 +40,7 @@ public class incometaxcalc {
                 double tax3 = (300000)*0.1;
                 double tax4 = (300000)*0.15;
                 double totaltax = tax1 + tax2 + tax3 + tax4;
-                System.out.println("You Need to Pay " + totaltax + " ruppess as Tax");
+                System.out.println("You Need to Pay " + totaltax + " rupees as Tax");
                 
             }
 
@@ -51,7 +51,7 @@ public class incometaxcalc {
                 double tax4 = (300000)*0.15;
                 double tax5 = (300000)*0.2;
                 double totaltax = tax1 + tax2 + tax3 + tax4 + tax5;
-                System.out.println("You Need to Pay " + totaltax + " ruppess as Tax");
+                System.out.println("You Need to Pay " + totaltax + " rupees as Tax");
                 
             }
         }
